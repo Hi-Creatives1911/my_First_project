@@ -1,0 +1,273 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section
+{
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+    
+section header
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+}
+
+section header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+section header ul li a
+{
+    text-decoration: none;
+    font-size:smaller;
+    color: black;
+}
+
+section header ul li a:hover
+{
+    filter:opacity(0.5);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+section header ul li a .menu
+{
+    width: 20px;
+    border-radius: 7%;
+}
+
+section header ul li a button
+{
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    border: 0px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+section .main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+section .main .google
+{
+    margin-bottom: 10px;
+}
+section .main .search-elements
+{
+    position: relative;
+    width: 100%;
+}
+
+section .main .search-elements .searchbox
+{
+    width:100%;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    margin-top: 0px;
+    padding: 13px 50px;
+    outline: 0;
+}
+
+section .main .search-elements .icons
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    pointer-events: none;
+}
+
+section .main .buttons
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section .main .buttons button
+{
+    border: none;
+    padding: 8px;
+    border-radius: 7px;
+    outline: none;
+}
+
+section .main .buttons button:hover
+{
+    cursor: pointer;
+    filter: opacity(70%);
+    transition: 0.7s;
+}
+
+section .main .languages-offered
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    font-size: smaller;
+}
+
+section .main .languages-offered li
+{
+    list-style: none;
+    margin-right: 10px;
+}
+
+section .main .languages-offered li a
+{
+    text-decoration: none;
+    
+}
+
+section .main .languages-offered li a:hover
+{
+    cursor: pointer;
+    filter: opacity(70%);
+    transition: 0.7s;
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+section .footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    diaplay: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(00, 00, 00, 0.5);
+    color: white;
+    height: 100px;
+    font-size: small;
+}
+
+section .footer .row1
+{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgba(00, 00, 00, 0.3);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+section .footer .row2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+section .footer .row2 .climate
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section .footer .row2 .climate p a
+{
+    color: white;
+    text-decoration: none;
+}
+
+section .footer .row2 .climate p a:hover
+{
+    filter: opacity(0.5);
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+section .footer .row2 .climate .leaf
+{
+    height: 10px;
+    margin-right: 5px;
+    padding: 0;
+}
+
+section .footer .row2 .below
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+section .footer .row2 .below a
+{
+    color:white;
+    text-decoration: none;
+}
+
+section .footer .row2 .below a:hover
+{
+    filter: opacity(0.5);
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+section .footer .row2 .below .below-left
+{
+    display: flex;
+    padding-left: 50px;
+}
+
+section .footer .row2 .below .below-left li
+{
+    list-style: none;
+    margin: 0 15px;
+}
+
+section .footer .row2 .below .below-right
+{
+    display: flex;
+    padding-right: 50px;
+}
+
+section .footer .row2 .below .below-right li
+{
+    list-style: none;
+    margin: 0 15px;
+}
