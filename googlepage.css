@@ -85,32 +85,36 @@ section .main .google
 {
     margin-bottom: 10px;
 }
+
 section .main .search-elements
 {
-    position: relative;
     width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9px 20px;
+    border: 0;
+    border-radius: 20px;
 }
 
 section .main .search-elements .searchbox
 {
-    width:100%;
-    border-radius: 30px;
-    border: 1px solid transparent;
-    margin-top: 0px;
-    padding: 13px 50px;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
     outline: 0;
+    margin: 0 25px;
+    font-size: 14px;
+    height: 25px;
 }
 
-section .main .search-elements .icons
+section .main .search-elements .mic:hover
 {
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 12px 20px;
-    pointer-events: none;
+    cursor: pointer;
+    filter: opacity(0.7);
+    transition: 0.7s;
+    transform: scale(1.2);
 }
 
 section .main .buttons
